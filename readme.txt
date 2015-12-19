@@ -1,17 +1,19 @@
 === Automatic DNS Prefetch ===
 Contributors: mabujo
-Tags: wordpress, plugin, DNS Prefetch optimisation, page speed
+Tags: wordpress, plugin, DNS Prefetch, optimisation, page speed
 Requires at least: 3.9
 Tested up to: 4.4
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is where you craft a short, punchy description of your plugin
+This plugin speeds up your page load speed by adding DNS prefetch statements for external libraries.
 
 == Description ==
 
-This is where you can give a much longer description of your plugin that you can use to explain just how it awesome it really is.
+Modern browsers allow pages to prefetch DNS records of external libraries. This plugin looks through WordPress enqueued scripts and styles and adds DNS prefetch statements for scripts and stylesheets added by other plugins.
+
+This means that when the browser comes to download an external script or stylesheet, it already has looked up the DNS record for the external domain, and can proceed immediately to downloading the script, saving latency during loading of external resources.
 
 == Installation ==
 
@@ -20,12 +22,6 @@ Installing "Automatic DNS Prefetch" can be done either by searching for "Automat
 1. Download the plugin via WordPress.org
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
-
-== Frequently Asked Questions ==
-
-= What is the plugin template for? =
-
-This plugin template is designed to help you get started with any new WordPress plugin.
 
 == Changelog ==
 
