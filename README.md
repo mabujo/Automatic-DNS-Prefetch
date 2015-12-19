@@ -4,6 +4,8 @@ Modern browsers allow pages to prefetch DNS records of external libraries. This 
 
 This means that when the browser comes to download an external script or stylesheet, it already has looked up the DNS record for the external domain, and can proceed immediately to downloading the script, saving latency during loading of external resources.
 
+You can read more about this technique in the [Chromium document](https://www.chromium.org/developers/design-documents/dns-prefetching).
+
 Plugin page : [Automatic DNS prefetch plugin @ mabujo](https://mabujo.com/)
 
 ## Installation
