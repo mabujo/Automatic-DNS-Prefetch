@@ -17,6 +17,8 @@ This means that when the browser comes to download an external script or stylesh
 
 You can read more about this technique in the [Chromium document](https://www.chromium.org/developers/design-documents/dns-prefetching).
 
+Plugin page [Automatic DNS Prefetch plugin @ mabujo](https://mabujo.com/blog/automatic-dns-prefetch-wordpress-plugin/).
+
 == Installation ==
 
 Installing "Automatic DNS Prefetch" can be done either by searching for "Automatic DNS Prefetch" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:

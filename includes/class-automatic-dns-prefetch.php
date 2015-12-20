@@ -109,7 +109,7 @@ class Automatic_DNS_Prefetch {
 		// echo out external DNS prefetches
 		if (!empty($unique_hosts))
 		{
-			echo "<!-- Automatic DNS Prefetch by mabujo - https://mabujo.com/automatic-dns-prefetch/ --> \n";
+			echo "<!-- Automatic DNS Prefetch by mabujo - https://mabujo.com/blog/automatic-dns-prefetch-wordpress-plugin/ --> \n";
 			echo '<meta http-equiv="x-dns-prefetch-control" content="on">' . "\n";
 			foreach ($unique_hosts as $key => $value)
 			{
